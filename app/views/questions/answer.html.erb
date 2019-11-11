@@ -1,0 +1,16 @@
+
+<div class="container justify-content-center">
+  <h1>Stupid coach answer</h1>
+  <div class="card w-75 bg-dark text-white">
+    <p><%= @question.capitalize %></p>
+    <p><i>-You</i></p>
+  </div>
+
+  <div class="card w-75 bg-secondary text-white mt-5 mb-3">
+    <p><%= @answer %></p>
+    <p><i>-Your coach</i></p>
+  </div>
+  <p><%= link_to "Ask a new question", ask_path %></p>
+</div>
+
+
